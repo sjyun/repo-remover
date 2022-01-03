@@ -1,0 +1,14 @@
+spring.logging.level.org.springframework.web.reactive.function.client.ExchangeFunctions: TRACE
+spring.http.log-request-details: true
+
+info.thecodinglive:
+  token-path: github_token.txt
+  remover-user-id: sjyun
+  pageCount: 150
+
+logging:
+  level:
+    reactor:
+      netty:
+        http:
+          client: DEBUG
