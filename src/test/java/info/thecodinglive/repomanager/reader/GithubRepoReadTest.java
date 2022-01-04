@@ -22,8 +22,6 @@ public class GithubRepoReadTest {
     GithubRepoReader githubRepoReader;
     @InjectMocks
     GithubRepoRemoverClient githubRepoRemoverClient;
-    @InjectMocks
-    AppProperties appProperties;
 
     @Test
     void readGithubRepos() {
